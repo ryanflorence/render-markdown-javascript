@@ -16,11 +16,13 @@ How?
 Write normal markdown but for code fence blocks you want to have render in the browser also, use the "render" or "render-babel" language
 
 ```markdown
+
 ```render
 console.log('lol!')
 // also, here's the dom node to play with for just this code block:
 console.log(DOM_NODE)
 ```
+
 ```
 
 How do I get JavaScript and CSS onto the page?
@@ -34,10 +36,10 @@ With `<script>`, `<link>`, and `<style>` of course.
 <link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css"/>
 <style>body { color: red }</style>
 
-Also check out the [demo.md](./demo.md) file from the screenshot.
-
 # Then markdown as usual...
 ```
+
+Also check out the [demo.md](./demo.md) file from the screenshot.
 
 Does it babel?
 --------------
@@ -50,6 +52,7 @@ Yes, first include babel standalone at the top of your markdown file and then us
 ```render-babel
 const JSX_IS_A_DSL_TOO_THO = <div>hi</div>
 ```
+
 ```
 
 CLI Usage
