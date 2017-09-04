@@ -1,0 +1,16 @@
+{
+  "name": "render-markdown-js",
+  "description":
+    "Renders markdown files to HTML with highlighted code blocks BUT ALSO RENDERS THE JAVASCRIPT ONES.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "render-markdown-js": "./bin/cli.js"
+  },
+  "author": "Ryan Florence <@ryanflorence>",
+  "license": "MIT",
+  "dependencies": {
+    "markdown-it": "^8.4.0",
+    "prismjs": "^1.6.0"
+  }
+}
