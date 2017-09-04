@@ -13,15 +13,15 @@ I've got a bunch of little JavaScript UI libs that don't need much more than a R
 How?
 ----
 
-Write normal markdown but for code fence blocks you want to have render in the browser also, use the "render" or "render-babel" language
+Write normal markdown but for code fence blocks you want to have render in the browser also, use the "render" or "render-babel" language. Github markdown hates code fenced blocks inside of code fenced blocks, so please make sure to use triple back ticks, not the normal quotes I'm using here. Very sorry.
 
 ```markdown
 
-  ```render
-  console.log('lol!')
-  // also, here's the dom node to play with for just this code block:
-  console.log(DOM_NODE)
-  ```
+'''render
+console.log('lol!')
+// also, here's the dom node to play with for just this code block:
+console.log(DOM_NODE)
+'''
 
 ```
 
@@ -44,14 +44,14 @@ Also check out the [demo.md](./demo.md) file from the screenshot.
 Does it babel?
 --------------
 
-Yes, first include babel standalone at the top of your markdown file and then use the `render-babel` language instead of `render`.
+Yes, first include babel standalone at the top of your markdown file and then use the `render-babel` language instead of `render`. Again, use triple backticks, not quotes as shown here, the quotes are because github hates fenced blocks inside of fenced blocks very much.
 
 ```markdown
 <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 
-```render-babel
+'''render-babel
 const JSX_IS_A_DSL_TOO_THO = <div>hi</div>
-```
+'''
 
 ```
 
