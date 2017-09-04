@@ -1,13 +1,17 @@
 {
   "name": "render-markdown-js",
-  "description":
-    "Renders markdown files to HTML with highlighted code blocks BUT ALSO RENDERS THE JAVASCRIPT ONES.",
-  "version": "1.0.1",
+  "description": "Renders markdown files to HTML with highlighted code blocks BUT ALSO RENDERS THE JAVASCRIPT ONES.",
+  "version": "1.0.2",
   "main": "index.js",
   "bin": {
     "render-markdown-js": "./bin/cli.js"
   },
-  "files": ["bin/cli.js", "./demo.md", "./index.js", "./README.md"],
+  "files": [
+    "bin/cli.js",
+    "./demo.md",
+    "./index.js",
+    "./README.md"
+  ],
   "author": "Ryan Florence <@ryanflorence>",
   "license": "MIT",
   "dependencies": {
