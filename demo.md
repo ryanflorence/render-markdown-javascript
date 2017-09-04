@@ -28,6 +28,12 @@ pre {
 
 This is my markdown file.
 
+```render
+console.log('goodness me', DOM_NODE)
+```
+
+If you want to use babel, make sure to add babel-standalone like this file does at the top:
+
 ```render-babel
 class Demo extends React.Component {
   componentDidMount() {
