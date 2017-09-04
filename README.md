@@ -34,6 +34,8 @@ With `<script>`, `<link>`, and `<style>` of course.
 <link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css"/>
 <style>body { color: red }</style>
 
+Also check out the [demo.md](./demo.md) file from the screenshot.
+
 # Then markdown as usual...
 ```
 
