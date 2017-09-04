@@ -17,11 +17,11 @@ Write normal markdown but for code fence blocks you want to have render in the b
 
 ```markdown
 
-```render
-console.log('lol!')
-// also, here's the dom node to play with for just this code block:
-console.log(DOM_NODE)
-```
+  ```render
+  console.log('lol!')
+  // also, here's the dom node to play with for just this code block:
+  console.log(DOM_NODE)
+  ```
 
 ```
 
