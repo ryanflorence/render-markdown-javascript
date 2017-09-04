@@ -2,8 +2,6 @@ const fs = require("fs")
 const MarkdownIt = require("markdown-it")
 const Prism = require("prismjs")
 
-const source = fs.readFileSync("./demo.md").toString()
-
 const aliases = {
   js: "jsx",
   render: "jsx",

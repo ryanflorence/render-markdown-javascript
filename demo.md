@@ -26,11 +26,9 @@ pre {
 
 # Actually render your code blocks
 
-But this is my markdown file
+This is my markdown file.
 
 ```render-babel
-const h = React.createElement
-
 class Demo extends React.Component {
   componentDidMount() {
     setInterval(() => this.forceUpdate(), 500)
