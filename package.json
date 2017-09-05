@@ -1,7 +1,7 @@
 {
   "name": "render-markdown-js",
   "description": "Renders markdown files to HTML with highlighted code blocks BUT ALSO RENDERS THE JAVASCRIPT ONES.",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "main": "index.js",
   "bin": {
     "render-markdown-js": "./bin/cli.js"
