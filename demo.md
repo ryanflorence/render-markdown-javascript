@@ -29,6 +29,9 @@ This is my markdown file.
 DOM_NODE.innerHTML = 'Hey there!'
 ```
 
+What About babel?
+-----------------
+
 If you want to use babel, make sure to add babel-standalone like this file does at the top:
 
 ```render-babel

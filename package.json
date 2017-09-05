@@ -16,6 +16,7 @@
   "license": "MIT",
   "dependencies": {
     "markdown-it": "^8.4.0",
+    "markdown-it-anchor": "^4.0.0",
     "prismjs": "^1.6.0"
   }
 }

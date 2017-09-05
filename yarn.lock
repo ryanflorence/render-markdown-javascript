@@ -36,6 +36,12 @@ linkify-it@^2.0.0:
   dependencies:
     uc.micro "^1.0.1"
 
+markdown-it-anchor@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/markdown-it-anchor/-/markdown-it-anchor-4.0.0.tgz#e87fb5543e01965adf71506c6bf7b0491841b7e3"
+  dependencies:
+    string "^3.3.3"
+
 markdown-it@^8.4.0:
   version "8.4.0"
   resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-8.4.0.tgz#e2400881bf171f7018ed1bd9da441dac8af6306d"
@@ -63,6 +69,10 @@ select@^1.1.2:
 sprintf-js@~1.0.2:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
+
+string@^3.3.3:
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/string/-/string-3.3.3.tgz#5ea211cd92d228e184294990a6cc97b366a77cb0"
 
 tiny-emitter@^2.0.0:
   version "2.0.2"

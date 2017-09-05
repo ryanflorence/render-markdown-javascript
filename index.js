@@ -1,6 +1,7 @@
 const fs = require("fs")
 const MarkdownIt = require("markdown-it")
 const Prism = require("prismjs")
+const HeaderLinks = require("markdown-it-anchor")
 
 const aliases = {
   js: "jsx",
@@ -58,6 +59,6 @@ ${js}
 const md = new MarkdownIt({
   html: true,
   highlight: highlight
-})
+}).use(HeaderLinks, { permalink: true, permalinkBefore: true })
 
 module.exports = source => md.render(source)
