@@ -59,6 +59,10 @@ ${js}
 const md = new MarkdownIt({
   html: true,
   highlight: highlight
-}).use(HeaderLinks, { permalink: true, permalinkBefore: true })
+}).use(HeaderLinks, {
+  permalink: true,
+  permalinkBefore: true,
+  permalinkSymbol: "#"
+})
 
 module.exports = source => md.render(source)
