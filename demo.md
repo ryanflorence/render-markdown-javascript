@@ -1,6 +1,3 @@
-<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
-<script src="https://unpkg.com/react@15.6.1/dist/react.js"></script>
-<script src="https://unpkg.com/react-dom@15.6.1/dist/react-dom.js"></script>
 <link rel="stylesheet" type="text/css" href="https://unpkg.com/prismjs@1.6.0/themes/prism-tomorrow.css"/>
 <style>
 body {
@@ -29,7 +26,7 @@ pre {
 This is my markdown file.
 
 ```render
-console.log('goodness me', DOM_NODE)
+DOM_NODE.innerHTML = 'Hey there!'
 ```
 
 If you want to use babel, make sure to add babel-standalone like this file does at the top:
@@ -57,3 +54,7 @@ Isn't that
 - Incredibly inflexible?
 
 Yes.
+
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+<script src="https://unpkg.com/react@15.6.1/dist/react.min.js"></script>
+<script src="https://unpkg.com/react-dom@15.6.1/dist/react-dom.min.js"></script>

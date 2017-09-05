@@ -37,14 +37,22 @@ const appendScript = (lang, js, html) => {
   const id = `render-${Math.random()
     .toString(32)
     .substring(2)}`
+
+  const script =
+    lang === "render-babel"
+      ? `
+(function() { var DOM_NODE = document.getElementById("${id}");
+${js}
+})()`
+      : `
+document.addEventListener("DOMContentLoaded", function(event) { var DOM_NODE = document.getElementById("${id}");
+${js}
+})`
+
   return `<pre><code class="jsx">${html}</code></pre>
 <div id="${id}" class="render-js"></div>
-<script type="text/${type}">
-(function() { var DOM_NODE = document.getElementById("${id}");
-
-${js}
-
-})()</script>`
+<script type="text/${type}">${script}</script>
+`
 }
 
 const md = new MarkdownIt({

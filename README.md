@@ -29,12 +29,20 @@ With `<script>`, `<link>`, and `<style>` of course.
 # Then markdown as usual...
 ```
 
-Also check out the [demo.md](./demo.md) file from the screenshot.
+You can place your scripts at the bottom of the markdown file to prevent blocking your content from rendering, all scripts are run after `DOMContentLoaded`.
+
+Also check out the [demo.md](https://raw.githubusercontent.com/ryanflorence/render-markdown-javascript/master/demo.md) file from the screenshot.
 
 Does it babel?
 --------------
 
 Yes, first include babel standalone at the top of your markdown file and then use the `render-babel` language instead of `render`. Again, github hates code fence blocks inside code fence blocks here so I can't really show you in this README. Check out the [demo](https://raw.githubusercontent.com/ryanflorence/render-markdown-javascript/master/demo.md)
+
+How Do I Attach Stuff to the DOM?
+---------------------------------
+
+There will be a variable called `DOM_NODE` available to use, its the node for just that script.
+
 
 CLI Usage
 ---------
