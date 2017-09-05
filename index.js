@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function(event) { var DOM_NODE = d
 ${js}
 })`
 
-  return `<pre><code class="jsx">${html}</code></pre>
+  return `<pre class="render-js-code"><code class="jsx">${html}</code></pre>
 <div id="${id}" class="render-js"></div>
 <script type="text/${type}">${script}</script>
 `
