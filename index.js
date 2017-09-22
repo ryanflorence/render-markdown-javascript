@@ -1,4 +1,3 @@
-const fs = require("fs")
 const MarkdownIt = require("markdown-it")
 const Prism = require("prismjs")
 const HeaderLinks = require("markdown-it-anchor")
