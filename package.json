@@ -15,7 +15,7 @@
   "author": "Ryan Florence <@ryanflorence>",
   "license": "MIT",
   "dependencies": {
-    "markdown-it": "^8.4.0",
+    "markdown-it": "^12.3.2",
     "markdown-it-anchor": "^4.0.0",
     "prismjs": "^1.6.0"
   }
